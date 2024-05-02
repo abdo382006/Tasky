@@ -1,0 +1,15 @@
+[A] App Components
+  [1] Header
+    [2] AddTodo
+    [3] SearchBar
+  [4] MainContent
+    [5] TodosList
+    [6] TodosItem
+
+[B] Functionalities
+  [1] Create a new todo
+  [2] Filter the todos 
+  [3] mark all todos as completed
+  [4] search todos 
+  [5] delete todo 
+  [7] mark todo as completed

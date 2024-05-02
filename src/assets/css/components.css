@@ -1,0 +1,63 @@
+/* Start Logo */
+.logo {
+  color: var(--main-color);
+  text-align: center;
+  font-family: "Lugrasimo", cursive;
+  font-size: 24px;
+  font-weight: 800;
+}
+/* End Logo */
+/* Start Main Btn */
+.main-btn {
+  background-color: var(--main-color);
+  display: inline-block;
+  min-width: 50px;
+  border-radius: var(--radius-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  font-weight: bold;
+  transition: opacity var(--transition-duration);
+}
+
+.main-btn:hover {
+  opacity: 0.8;
+}
+/* End Main Btn */
+/* Start Select Box */
+.select-box {
+  width: 120px;
+  position: relative;
+}
+
+.select-box select {
+  display: block;
+  width: 100%;
+  padding: 7px 14px;
+  border: var(--light-border);
+  border-radius: var(--radius-6);
+  font-size: 13px;
+  font-weight: bold;
+  transition: border-color var(--transition-duration);
+}
+
+.select-box select:focus {
+  border-color: var(--main-color);
+}
+
+.select-box .icon {
+  line-height: 1;
+  font-size: 13px;
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: color var(--transition-duration);
+}
+
+.select-box:has(select:focus) .icon {
+  color: var(--main-color);
+}
+/* End Select Box */
